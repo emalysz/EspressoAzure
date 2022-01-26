@@ -9,15 +9,6 @@ trigger:
 pool: Default
 
 steps:
-- task: BrowserStackAppUploader@0
-  inputs:
-    appPath: 'app/build/outputs/apk/debug/app-debug.apk'
-- task: BrowserStackConfig@0
-  inputs:
-    BrowserStackServiceEndPoint: 'bsConnection'
-- task: BrowserStackResults@1
-  inputs:
-    browserstackProduct: 'automate'
 - task: AzureCLI@2
   inputs:
     scriptType: 'bash'
