@@ -5,6 +5,8 @@
 trigger:
 - main
 
+pool: Default
+
 steps:
 - task: BrowserStackAppUploader@0
   inputs:
