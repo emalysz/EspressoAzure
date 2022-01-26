@@ -1,0 +1,29 @@
+# Android
+- task: BrowserStackConfig@0
+  inputs:
+    BrowserStackServiceEndPoint: 'browserstack-connection'
+- task: BrowserStackResults@1
+  inputs:
+    browserstackProduct: 'automate'
+# Build your Android project with Gradle.
+# Add steps that test, sign, and distribute the APK, save build artifacts, and more:
+# https://docs.microsoft.com/azure/devops/pipelines/languages/android
+
+trigger:
+- main
+
+pool:
+  vmImage: 'macos-latest'
+
+steps:
+- task: Gradle@2
+  inputs:
+- task: AzureCLI@2
+  inputs:
+    scriptType: 'bash'
+    scriptLocation: 'inlineScript'
+    inlineScript: |
+      curl -u "emmamalysz_4PgZUS:BRKYBgoRtwernJha1Pjk" \                    
+      -X POST "https://api-cloud.browserstack.com/app-automate/espresso/v2/build" \
+      -d '{"app": "bs://910dc4e0a7faf9eeb717030769b49cd3a6f094fc", "testSuite": "bs://4ace7fbec2d2910f7293c3c3ec83419ad10f64dc", "devices": ["Samsung Galaxy S9 Plus-9.0"]}' \
+      -H "Content-Type: application/json"
