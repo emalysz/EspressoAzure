@@ -1,0 +1,4 @@
+#Wed Jan 26 08:58:03 PST 2022
+base.0=/Users/emmamalysz/Desktop/AutomateTesting/Espresso/espresso-browserstack/app/build/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

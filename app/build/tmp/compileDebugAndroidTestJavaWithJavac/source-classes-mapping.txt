@@ -1,0 +1,10 @@
+com/sample/browserstack/samplecalculator/EnsureRandomTests.java
+ com.sample.browserstack.samplecalculator.EnsureRandomTests
+com/sample/browserstack/samplecalculator/ExampleInstrumentedTest.java
+ com.sample.browserstack.samplecalculator.ExampleInstrumentedTest
+com/sample/browserstack/samplecalculator/EnsureInputTests.java
+ com.sample.browserstack.samplecalculator.EnsureInputTests
+com/sample/browserstack/samplecalculator/EnsureOperationTests.java
+ com.sample.browserstack.samplecalculator.EnsureOperationTests
+com/sample/browserstack/samplecalculator/test/BuildConfig.java
+ com.sample.browserstack.samplecalculator.test.BuildConfig

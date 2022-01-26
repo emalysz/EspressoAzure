@@ -1,0 +1,25 @@
+com/sample/browserstack/samplecalculator/databinding/ActivityMainBinding.java
+ com.sample.browserstack.samplecalculator.databinding.ActivityMainBinding
+com/sample/browserstack/samplecalculator/BuildConfig.java
+ com.sample.browserstack.samplecalculator.BuildConfig
+com/sample/browserstack/samplecalculator/MainActivity.java
+ com.sample.browserstack.samplecalculator.MainActivity
+ com.sample.browserstack.samplecalculator.MainActivity$1
+ com.sample.browserstack.samplecalculator.MainActivity$10
+ com.sample.browserstack.samplecalculator.MainActivity$11
+ com.sample.browserstack.samplecalculator.MainActivity$12
+ com.sample.browserstack.samplecalculator.MainActivity$13
+ com.sample.browserstack.samplecalculator.MainActivity$14
+ com.sample.browserstack.samplecalculator.MainActivity$15
+ com.sample.browserstack.samplecalculator.MainActivity$16
+ com.sample.browserstack.samplecalculator.MainActivity$17
+ com.sample.browserstack.samplecalculator.MainActivity$2
+ com.sample.browserstack.samplecalculator.MainActivity$3
+ com.sample.browserstack.samplecalculator.MainActivity$4
+ com.sample.browserstack.samplecalculator.MainActivity$5
+ com.sample.browserstack.samplecalculator.MainActivity$6
+ com.sample.browserstack.samplecalculator.MainActivity$7
+ com.sample.browserstack.samplecalculator.MainActivity$8
+ com.sample.browserstack.samplecalculator.MainActivity$9
+com/sample/browserstack/samplecalculator/DataBindingTriggerClass.java
+ com.sample.browserstack.samplecalculator.DataBindingTriggerClass
