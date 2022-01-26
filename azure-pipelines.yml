@@ -10,7 +10,7 @@ pool: Default
 steps:
 - task: BrowserStackAppUploader@0
   inputs:
-    appPath: 'emalysz/EspressoAzure/app/build/outputs/apk/debug/app-debug.apk'
+    appPath: '/EspressoAzure/app/build/outputs/apk/debug/app-debug.apk'
 - task: BrowserStackConfig@0
   inputs:
     BrowserStackServiceEndPoint: 'browserstack-connection'
