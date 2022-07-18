@@ -11,7 +11,7 @@ pool: Default
 steps:
 - task: CmdLine@2
   inputs:
-    script: 'curl -u "emmamalysz_4PgZUS:BRKYBgoRtwernJha1Pjk" -X POST "https://api-cloud.browserstack.com/app-automate/espresso/v2/build" -d ''{"app": "bs://910dc4e0a7faf9eeb717030769b49cd3a6f094fc", "testSuite": "bs://4ace7fbec2d2910f7293c3c3ec83419ad10f64dc", "devices": ["Samsung Galaxy S9 Plus-9.0"]}'' -H "Content-Type: application/json"'
+    script: 'curl -u "emmamalysz_4PgZUS:BRKYBgoRtwernJha1Pjk" -X POST "https://api-cloud.browserstack.com/app-automate/espresso/v2/build" -d ''{"app": "bs://2e5b8d9a7ffaf84912ce3e62406864d1b5bbfe65", "testSuite": "bs://dbd9b6b84dc357804e33f7d1b00f28ebd75309b9", "devices": ["Samsung Galaxy S9 Plus-9.0"]}'' -H "Content-Type: application/json"'
       
 
 
